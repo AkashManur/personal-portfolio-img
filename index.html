@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akash Portfolio Website - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <img src="images/logo.jpg" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="header">
+        <div class="container">
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi, I'm <span>Akash Manur</span> <br>From Vijayapur</h1>
+            </div>
+        </div>
+    </div>
+    <!-- About Section -->
+    <div class="header-text2">
+        <h1 style="color:rgb(227, 17, 17); ">"WELCOME TO<span style="color:rgb(239, 239, 247)"> MY </span> PORTFOLIO "</h1>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="abou-col-1">
+                    <div class="logoimg"><img src="images/user.jpg"></div>
+                </div>
+                <div class="abou-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>"I am a software engineer with a passion for creating intuitive and user-friendly software solutions. My technical expertise includes web and app development, and I am always eager to take on new challenges and learn new technologies.
+                        Currently, I am studying at KVG College of Engineering in Sullia, where I am committed to continuously enhancing my skills in the ever-evolving field of software engineering."</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Basic Coding Languages: .</span><br>Proficient in HTML, CSS, and JavaScript.</li>
+                            <li><span>Problem-Solving:</span><br>Capable of tackling engineering and coding challenges.t</li>
+                            <li><span>Web Development: </span><br>Understanding of creating basic websites.</li>
+                            <li><span>Team Collaboration: </span><br>Experience working on group projects.</li>
+                            <li><span>App Development: </span><br>Building Android/iOS apps</li>
+                            <li><span>Continuous Learning: </span><br>Actively learning new technologies and methodologies.</li>
+                            <li><span>Basic Algorithm Design: </span><br>Understanding fundamental algorithms and data structures.</li>
+                            <li><span>Version Control: </span><br>Basic knowledge of Git and GitHub for code collaboration.r</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2024 - Current</span>"I am currently studying engineering and have basic knowledge of coding languages." "I do not have any professional experience yet as I am still pursuing my studies." "I am eager to learn and gain
+                                more experience in the field of software engineering."
+                            </li>
+                            <li><span>Web Development </span><br>Web App Development</li>
+                            <li><span>App Development </span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Engineering Field:</span><br>"I am currently pursuing Computer Science Engineering at KVG College of Engineering in Sullia. The program equips me with a solid foundation in computer science principles and practical skills
+                                in software development, algorithms, and data structures. I am actively involved in exploring various facets of computer science through coursework and hands-on projects. KVG College provides an excellent platform for me
+                                to grow academically and professionally in the field of technology."</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services Section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>API Development:</h2>
+                    <p> Understanding how to design, build, and deploy RESTful APIs using frameworks like Express.js (Node.js) or Flask (Python) can be crucial. This involves learning about HTTP methods, request/response handling, authentication, and documenting
+                        APIs.
+
+
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>Microservices Architecture:</h2>
+                    <p> Delve into the principles of microservices, including service decomposition, communication patterns (like REST or messaging), service discovery, fault tolerance, and scalability. Implementing microservices with technologies such as
+                        Docker, Kubernetes, or serverless platforms can provide practical experience.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <h2>Cloud Services:</h2>
+                    <p>Explore cloud platforms like AWS (Amazon Web Services), Azure, or Google Cloud Platform for hosting and deploying web services. Learn about serverless computing, containerization, managed databases, and other cloud services that support
+                        scalable and reliable web applications.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Section -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>TA social media app connects users worldwide, facilitating communication, content sharing, and networking. It includes features like user profiles, news feeds, messaging, photo/video sharing, and interactive elements such as likes,
+                            comments, and shares. It aims to create a community where users can express themselves and connect with others based on common interests.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>A music app allows users to discover, stream, and organize their favorite music tracks and playlists. It offers features like personalized recommendations, curated playlists, offline listening, social sharing, and integration with
+                            music libraries. Music apps cater to diverse musical tastes and provide an immersive listening experience on various devices.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>An online shopping app enables users to browse, search, and purchase products or services directly from their mobile devices. It includes features like product catalogs, user reviews, secure payment gateways, order tracking, and
+                            customer support. Online shopping apps offer convenience, variety, and accessibility, transforming traditional retail experiences by providing seamless transactions and delivery options.</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- Contact Section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>akashmanur86@gmail.com</p>
+                    <p>+916360542551</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" id="email" placeholder="Your Email">
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright ">
+            <p>"© 2024 Akash Manur. This is my first experience creating a portfolio website. "</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links ");
+        var tabcontents = document.getElementsByClassName("tab-contents ");
+
+        function opentab(tabname) {
+            for (var tablink of tablinks) {
+                tablink.classList.remove("active-link ");
+            }
+            for (var tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab ");
+            }
+            event.currentTarget.classList.add("active-link ");
+            document.getElementById(tabname).classList.add("active-tab ");
+        }
+    </script>
+</body>
+
+</html>
